@@ -1,0 +1,21 @@
+{
+  "name": "pdf-converter",
+  "version": "1.0.0",
+  "description": "convert pdf from url",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "pdf"
+  ],
+  "author": "Yangxing.Liang",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "html-pdf-chrome": "^0.3.0",
+    "node-slack-upload": "^1.2.1",
+    "request": "^2.81.0"
+  }
+}
